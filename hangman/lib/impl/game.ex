@@ -18,8 +18,7 @@ defmodule Hangman.Impl.Game do
   #########################################
 
   def new_game do
-    words = Dictionary.start()
-    new_game(Dictionary.random_word(words))
+    new_game(Dictionary.random_word())
   end
 
   def new_game(word) do
