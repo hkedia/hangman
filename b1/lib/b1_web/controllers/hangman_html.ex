@@ -1,4 +1,4 @@
-defmodule B1Web.PageHTML do
+defmodule B1Web.HangmanHTML do
   @moduledoc """
   This module contains pages rendered by PageController.
 
